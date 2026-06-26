@@ -1,0 +1,6 @@
+{
+  "name": "Cosmetic Product",
+  "description": "Premium skincare and makeup products storefront and information hub, featuring quality products, beauty tips, and interactive skin consultation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
