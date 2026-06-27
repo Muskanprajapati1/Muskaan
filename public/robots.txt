@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cosmeticproductmuskan.netlify.app/sitemap.xml
+Sitemap:https://muskaan-8g9n0xkjb-muskan21.vercel.app/sitemap.xml
