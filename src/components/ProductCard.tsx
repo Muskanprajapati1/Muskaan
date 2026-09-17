@@ -39,6 +39,12 @@ export default function ProductCard({ product, onAddToBag }: ProductCardProps) {
             src={product.image}
             alt={product.name}
             referrerPolicy="no-referrer"
+             onError={(e) => {
+              const target = e.currentTarget;
+              if (product.fallbackImage && target.src !== product.fallbackImage) {
+                target.src = product.fallbackImage;
+              }
+            }}
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
           {/* Overlay actions */}
@@ -146,6 +152,12 @@ export default function ProductCard({ product, onAddToBag }: ProductCardProps) {
                     src={product.image}
                     alt={product.name}
                     referrerPolicy="no-referrer"
+                     onError={(e) => {
+                      const target = e.currentTarget;
+                      if (product.fallbackImage && target.src !== product.fallbackImage) {
+                        target.src = product.fallbackImage;
+                      }
+                    }}
                     className="h-full w-full object-cover"
                   />
                   <span className="absolute top-4 left-4 rounded-full bg-[#E8DCC4] text-[#705335] px-3 py-1 text-[10px] font-bold uppercase tracking-wider">

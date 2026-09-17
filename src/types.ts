@@ -7,6 +7,7 @@ export interface Product {
   category: "Skincare" | "Makeup";
   skinType: string;
   image: string;
+  fallbackImage?: string;
   ingredients: string[];
   rating: number; // e.g., 4.8
   reviewsCount: number;
@@ -28,6 +29,7 @@ export interface BlogPost {
   readTime: string;
   author: string;
   image?: string;
+  fallbackImage?: string;
 }
 
 export interface ContactFormData {

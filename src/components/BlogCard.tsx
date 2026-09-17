@@ -22,6 +22,12 @@ export default function BlogCard({ post }: BlogCardProps) {
               src={post.image}
               alt={post.title}
               referrerPolicy="no-referrer"
+                onError={(e) => {
+                const target = e.currentTarget;
+                if (post.fallbackImage && target.src !== post.fallbackImage) {
+                  target.src = post.fallbackImage;
+                }
+              }}
               className="h-full w-full object-cover group-hover/img:scale-105 transition-transform duration-500"
             />
           </div>
@@ -93,6 +99,12 @@ export default function BlogCard({ post }: BlogCardProps) {
                     src={post.image}
                     alt={post.title}
                     referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      if (post.fallbackImage && target.src !== post.fallbackImage) {
+                        target.src = post.fallbackImage;
+                      }
+                    }}
                     className="w-full h-full object-cover"
                   />
                 </div>

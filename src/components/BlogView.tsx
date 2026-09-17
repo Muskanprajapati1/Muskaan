@@ -58,9 +58,16 @@ export default function BlogView() {
           {/* Aesthetic block */}
           <div className="lg:col-span-5 relative bg-stone-200 min-h-[250px] lg:min-h-0 overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1590156546746-c22221b69a19?auto=format&fit=crop&w=720&q=80"
-              alt="Natural extracts face mask cosmetic application"
+               src={featuredPost.image || "/images/blog/essential-skincare-tips.jpg"}
+              alt={featuredPost.title}
               referrerPolicy="no-referrer"
+               onError={(e) => {
+                const target = e.currentTarget;
+                const fallback = featuredPost.fallbackImage || "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=720&q=80";
+                if (target.src !== fallback) {
+                  target.src = fallback;
+                }
+              }}
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 hover:scale-101"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950/40 to-transparent" />

@@ -15,9 +15,8 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
   // Select first 3 items for featured presentation
   const featuredProducts = PRODUCTS.slice(0, 3);
   
-  // Custom hero image path we generated earlier
-  const heroImage = "/src/assets/images/brand_hero_banner_1781844799703.jpg";
-
+   // Custom hero image path from public assets
+  const heroImage = "/images/brand_hero_banner.jpg";
   const benefits = [
     {
       icon: Award,
@@ -51,7 +50,7 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
     "@type": "Store",
     "name": "Cosmetic Product",
     "url": "https://cosmeticproductmuskan.netlify.app/",
-    "logo": "https://cosmeticproductmuskan.netlify.app/src/assets/images/brand_hero_banner_1781844799703.jpg",
+   "logo": "https://cosmeticproductmuskan.netlify.app/images/brand_hero_banner.jpg",
     "description": "Shop premium cosmetic products including skincare, makeup, beauty essentials, and personal care items. Quality products at affordable prices.",
     "priceRange": "₹500-₹1900",
     "telephone": "+91-98765-43210",
@@ -124,6 +123,12 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
                 src={heroImage}
                 alt="Cosmetic Product Luxury Editorial Banner"
                 referrerPolicy="no-referrer"
+                  onError={(e) => {
+                  const target = e.currentTarget;
+                  if (target.src !== window.location.origin + "/images/brand_hero_banner.jpg") {
+                    target.src = "/images/brand_hero_banner.jpg";
+                  }
+                }}
                 className="h-full w-full object-cover shadow-inner hover:scale-101 transition-transform duration-700"
               />
             </div>

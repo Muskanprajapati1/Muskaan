@@ -142,6 +142,12 @@ export default function Cart({
                         src={item.product.image}
                         alt={item.product.name}
                         referrerPolicy="no-referrer"
+                         onError={(e) => {
+                          const target = e.currentTarget;
+                          if (item.product.fallbackImage && target.src !== item.product.fallbackImage) {
+                            target.src = item.product.fallbackImage;
+                          }
+                        }}
                         className="h-16 w-16 object-cover rounded-lg border border-stone-200"
                       />
 

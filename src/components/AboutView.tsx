@@ -132,9 +132,14 @@ export default function AboutView() {
           <div className="group overflow-hidden rounded-2xl border border-stone-200 bg-white p-3 shadow-xs hover:shadow-md transition-all duration-300">
             <div className="aspect-4/3 overflow-hidden rounded-xl bg-stone-100">
               <img
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80"
+                 src="/images/about/botanical-harvesting.jpg"
                 alt="Organic herbal harvesting and petals extraction"
                 referrerPolicy="no-referrer"
+                 onError={(e) => {
+                  const target = e.currentTarget;
+                  const fallback = "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80";
+                  if (target.src !== fallback) target.src = fallback;
+                }}
                 className="h-full w-full object-cover group-hover:scale-103 transition-transform duration-500"
               />
             </div>
@@ -147,9 +152,14 @@ export default function AboutView() {
           <div className="group overflow-hidden rounded-2xl border border-stone-200 bg-white p-3 shadow-xs hover:shadow-md transition-all duration-300">
             <div className="aspect-4/3 overflow-hidden rounded-xl bg-stone-100">
               <img
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80"
+               src="/images/about/clinical-refining.jpg"
                 alt="Clinical laboratory formulation testing"
                 referrerPolicy="no-referrer"
+                 onError={(e) => {
+                  const target = e.currentTarget;
+                  const fallback = "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80";
+                  if (target.src !== fallback) target.src = fallback;
+                }}
                 className="h-full w-full object-cover group-hover:scale-103 transition-transform duration-500"
               />
             </div>
@@ -162,9 +172,14 @@ export default function AboutView() {
           <div className="group overflow-hidden rounded-2xl border border-stone-200 bg-white p-3 shadow-xs hover:shadow-md transition-all duration-300 sm:col-span-2 lg:col-span-1">
             <div className="aspect-4/3 overflow-hidden rounded-xl bg-stone-100">
               <img
-                src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80"
+                src="/images/about/immaculate-packaging.jpg"
                 alt="Finished premium skincare and makeup products"
                 referrerPolicy="no-referrer"
+                 onError={(e) => {
+                  const target = e.currentTarget;
+                  const fallback = "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80";
+                  if (target.src !== fallback) target.src = fallback;
+                }}
                 className="h-full w-full object-cover group-hover:scale-103 transition-transform duration-500"
               />
             </div>

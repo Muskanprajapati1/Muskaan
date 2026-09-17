@@ -151,9 +151,14 @@ export default function ContactView() {
           <div className="overflow-hidden rounded-2xl border border-stone-200 bg-white p-3 shadow-xs hover:shadow-md transition-all duration-300">
             <div className="aspect-16/9 overflow-hidden rounded-xl bg-stone-100">
               <img
-                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80"
+                src="/images/about/studio-lounge.jpg"
                 alt="Cosmetic Product Luxury Reception and Consulting Lobby"
                 referrerPolicy="no-referrer"
+                 onError={(e) => {
+                  const target = e.currentTarget;
+                  const fallback = "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80";
+                  if (target.src !== fallback) target.src = fallback;
+                }}
                 className="h-full w-full object-cover hover:scale-102 transition-transform duration-500"
               />
             </div>

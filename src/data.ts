@@ -13,7 +13,8 @@ export const PRODUCTS: Product[] = [
     price: 1499,
     category: "Skincare",
     skinType: "Suitable for dry and normal skin.",
-    image: "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/glow-radiance-cream.jpg",
+    fallbackImage: "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=600&q=80",
     ingredients: ["Hyaluronic Acid", "Niacinamide", "Shea Butter", "Vitamin E"],
     rating: 4.8,
     reviewsCount: 142
@@ -30,7 +31,8 @@ export const PRODUCTS: Product[] = [
     price: 1249,
     category: "Skincare",
     skinType: "Suitable for all skin types, especially uneven tone.",
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/vitamin-c-serum.jpg",
+    fallbackImage: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
     ingredients: ["Pure Vitamin C (L-Ascorbic Acid)", "Ferulic Acid", "Hyaluronic Acid", "Aloe Base"],
     rating: 4.9,
     reviewsCount: 198
@@ -47,7 +49,8 @@ export const PRODUCTS: Product[] = [
     price: 799,
     category: "Skincare",
     skinType: "Suitable for sensitive, combination, and oily skin.",
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/aloe-face-wash.jpg",
+    fallbackImage: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
     ingredients: ["Organic Aloe Vera Leaf Juice", "Green Tea Extract", "Glycerin", "Chamomile"],
     rating: 4.7,
     reviewsCount: 88
@@ -64,7 +67,8 @@ export const PRODUCTS: Product[] = [
     price: 549,
     category: "Skincare",
     skinType: "Suitable for cracked, dry lips.",
-    image: "https://images.unsplash.com/photo-1608248597481-496100c8c836?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/rose-lip-balm.jpg",
+    fallbackImage: "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80",
     ingredients: ["Rose Extract Oil", "Beeswax", "Jojoba Butter", "Almond Sweet Oil"],
     rating: 4.6,
     reviewsCount: 74
@@ -81,7 +85,8 @@ export const PRODUCTS: Product[] = [
     price: 1849,
     category: "Makeup",
     skinType: "Suitable for normal, combination, and oily skin.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/matte-foundation.jpg",
+    fallbackImage: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=600&q=80",
     ingredients: ["Silica Minerals", "Vitamin E", "Titanium Dioxide (SPF 15)", "Soothing Botanicals"],
     rating: 4.8,
     reviewsCount: 156
@@ -98,7 +103,8 @@ export const PRODUCTS: Product[] = [
     price: 1149,
     category: "Skincare",
     skinType: "Suitable for all skin types, including highly sensitive skin.",
-    image: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/herbal-sunscreen.jpg",
+    fallbackImage: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80",
     ingredients: ["Zinc Oxide", "Green Tea Leaf Extract", "Coconut Oil Fractionated", "Calendula"],
     rating: 4.7,
     reviewsCount: 112
@@ -114,7 +120,8 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "June 14, 2026",
     readTime: "4 min read",
     author: "Elena Vasquez (Dermatologist)",
-    image: "https://images.unsplash.com/photo-1590156546746-c22221b69a19?auto=format&fit=crop&w=600&q=80",
+    image: "/images/blog/essential-skincare-tips.jpg",
+    fallbackImage: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80",
     content: `Achieving healthy, glowing skin is not a matter of overnight magic; it is a result of consistent, healthy habits. Our skin is our largest organ, and it deserves to be treated with care and premium ingredients. Here are five non-negotiable skincare practices recommended by dermatologist specialists to transform your skin:
 
 1. **Gentle Double Cleansing**
@@ -185,7 +192,8 @@ Our **Matte Perfection Foundation** offers a lightweight, buildable mesh that se
     date: "May 15, 2026",
     readTime: "6 min read",
     author: "Sophia Sterling (Lead Herbal Chemist)",
-    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80",
+     image: "/images/blog/natural-ingredients.jpg",
+    fallbackImage: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80",
     content: `Since ancient civilizations, humans have harnessed nature to beautify, heal, and moisturize their body. Modern science has allowed us to refine these botanical treasures, extracting pure, active ingredients to create clean cosmetics that work in tandem with our body's chemistry.
 
 ### Why Choose Natural Ingredients?
@@ -203,7 +211,8 @@ At Cosmetic Product, we promise that our formulas remain cruelty-free, skin-frie
     date: "April 29, 2026",
     readTime: "3 min read",
     author: "Elena Vasquez (Dermatologist)",
-    image: "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=600&q=80",
+    image: "/images/blog/morning-skincare-routine.jpg",
+    fallbackImage: "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=600&q=80",
     content: `While your evening skincare routine focuses on intensive recovery and exfoliation, your morning routine has one main mission: **Defend & Shield**. Preparing your skin correctly sets it up to survive humidity, sun, makeup layers, and air pollutants beautifully.
 
 Follow this standard clinical morning guide for flawless, radiating skin:
