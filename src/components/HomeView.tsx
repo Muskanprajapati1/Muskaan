@@ -80,10 +80,10 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
   const schemaMarkup = {
     "@context": "https://schema.org",
     "@type": "Store",
-    "name": "Cosmetic Product",
+    "name":"Glowvya",
     "url": "https://cosmeticproductmuskan.netlify.app/",
     "logo": "https://cosmeticproductmuskan.netlify.app/images/brand_hero_banner.jpg",
-    "description": "Shop premium cosmetic products including skincare, makeup, beauty essentials, and personal care items. Quality products at affordable prices.",
+    "description": "Shop premium Glowvya cosmetic products including skincare, makeup, beauty essentials, and personal care items. Quality products at affordable prices.",
     "priceRange": "₹500-₹1900",
     "telephone": "+91-98765-43210",
     "address": {
@@ -99,8 +99,8 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
   return (
     <div className="space-y-16 pb-16 animate-fade-in">
       <Helmet>
-        <title>Cosmetic Products Online | Beauty & Skincare Collection</title>
-        <meta name="description" content="Shop premium cosmetic products including skincare, makeup, beauty essentials, and personal care items. Quality products at affordable prices." />
+       <title>Glowvya | Beauty & Skincare Collection</title>
+        <meta name="description" content="Shop premium Glowvya cosmetic products including skincare, makeup, beauty essentials, and personal care items. Quality products at affordable prices." />
         <script type="application/ld+json">
           {JSON.stringify(schemaMarkup)}
         </script>
@@ -120,11 +120,11 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-stone-900 leading-[1.08] block">
               Enhance Your <br />
               <span className="text-amber-800 italic">Natural Beauty</span> <br />
-              with Premium Skincare
+              with Glowvya Skincare
             </h1>
 
             <p className="font-sans text-stone-600 leading-relaxed text-sm md:text-base max-w-lg">
-              At <strong className="text-stone-900 font-semibold">Cosmetic Product</strong>, we believe that beauty begins with healthy skin. Our carefully crafted cosmetic products are made with high-quality ingredients to provide nourishment, hydration, and confidence. Whether you are looking for skincare essentials or makeup products, we have everything you need to achieve a radiant glow.
+             At <strong className="text-stone-900 font-semibold">Glowvya</strong>, we believe that beauty begins with healthy skin. Our carefully crafted cosmetic products are made with high-quality ingredients to provide nourishment, hydration, and confidence. Whether you are looking for skincare essentials or makeup products, we have everything you need to achieve a radiant glow.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 pt-2">
@@ -170,7 +170,7 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
               <img
                 id="hero-banner-image"
                 src={heroImage}
-                alt="Cosmetic Product Luxury Skincare & Editorial Beauty Banner"
+                alt="Glowvya Luxury Skincare & Editorial Beauty Banner"
                 referrerPolicy="no-referrer"
                 onError={(e) => {
                   const target = e.currentTarget;

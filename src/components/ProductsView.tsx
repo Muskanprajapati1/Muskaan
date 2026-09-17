@@ -35,8 +35,8 @@ export default function ProductsView({ onAddToBag }: ProductsViewProps) {
   const schemaMarkup = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Cosmetic Product Catalog",
-    "description": "Premium cosmetic products, including skincare and makeup essentials at affordable prices.",
+    "name": "Glowvya Cosmetic Catalog",
+    "description": "Premium Glowvya cosmetic products, including skincare and makeup essentials at affordable prices.",
     "url": "https://cosmeticproductmuskan.netlify.app/services",
     "itemListElement": PRODUCTS.map((prod, index) => ({
       "@type": "ListItem",
@@ -60,8 +60,8 @@ export default function ProductsView({ onAddToBag }: ProductsViewProps) {
   return (
     <div className="mx-auto max-w-7xl px-6 py-12 space-y-12 animate-fade-in">
       <Helmet>
-        <title>Services & Products - Cosmetic Product</title>
-        <meta name="description" content="Explore our luxurious range of cosmetic services and skincare products, designed to bring out your best." />
+       <title>Services & Products - Glowvya</title>
+        <meta name="description" content="Explore our luxurious range of Glowvya skincare formulas and beauty makeup essentials." />
         <script type="application/ld+json">
           {JSON.stringify(schemaMarkup)}
         </script>

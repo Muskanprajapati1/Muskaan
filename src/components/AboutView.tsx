@@ -34,16 +34,16 @@ export default function AboutView() {
   const schemaMarkup = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About Us - Cosmetic Product",
-    "description": "Learn about Cosmetic Product's mission to combine clean clinical research with potent natural herbal extracts.",
+    "name": "About Us - Glowvya",
+    "description": "Learn about Glowvya's mission to combine clean clinical research with potent natural herbal extracts.",
     "url": "https://cosmeticproductmuskan.netlify.app/about"
   };
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-12 space-y-16 animate-fade-in">
       <Helmet>
-        <title>About Us - Cosmetic Product</title>
-        <meta name="description" content="Learn about Cosmetic Product's mission to combine clean clinical research with potent natural herbal extracts." />
+         <title>About Us - Glowvya</title>
+        <meta name="description" content="Learn about Glowvya's mission to combine clean clinical research with potent natural herbal extracts." />
         <script type="application/ld+json">
           {JSON.stringify(schemaMarkup)}
         </script>
@@ -57,13 +57,12 @@ export default function AboutView() {
         </div>
         
         <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-stone-900 leading-tight">
-          About Cosmetic Product
+          About Glowvya
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start pt-2">
           <p className="font-sans text-sm md:text-base text-stone-650 leading-relaxed">
-            **Cosmetic Product** is dedicated to helping individuals feel beautiful and confident through high-quality beauty and skincare solutions. Founded with a passion for skincare and wellness, we combine natural ingredients with modern cosmetic science to create products that deliver visible results.
-          </p>
+           **Glowvya** is dedicated to helping individuals feel beautiful and confident through high-quality beauty and skincare solutions. Founded with a passion for skincare and wellness, we combine natural ingredients with modern cosmetic science to create products that deliver visible results.
           <div className="bg-[#FAF8F5] border border-stone-200/80 p-6 rounded-2xl relative">
             <span className="absolute top-4 right-4 text-xs font-mono font-semibold text-amber-700/60 uppercase">Est. 2026</span>
             <blockquote className="font-serif italic text-stone-700 text-sm md:text-base mt-2">

@@ -30,16 +30,16 @@ export default function ContactView() {
   const schemaMarkup = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact Us - Cosmetic Product",
-    "description": "Get in touch with Cosmetic Product. Our aesthetic advisors are ready to assist you with an inquiry.",
+    "name": "Contact Us - Glowvya",
+    "description": "Get in touch with Glowvya. Our aesthetic advisors are ready to assist you with an inquiry.",
     "url": "https://cosmeticproductmuskan.netlify.app/contact"
   };
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-12 space-y-16 animate-fade-in">
       <Helmet>
-        <title>Contact Us - Cosmetic Product</title>
-        <meta name="description" content="Get in touch with Cosmetic Product. Our aesthetic advisors are ready to assist you with an inquiry." />
+       <title>Contact Us - Glowvya</title>
+        <meta name="description" content="Get in touch with Glowvya. Our aesthetic advisors are ready to assist you with an inquiry." />
         <script type="application/ld+json">
           {JSON.stringify(schemaMarkup)}
         </script>
@@ -152,7 +152,8 @@ export default function ContactView() {
             <div className="aspect-16/9 overflow-hidden rounded-xl bg-stone-100">
               <img
                 src="/images/about/studio-lounge.jpg"
-                alt="Cosmetic Product Luxury Reception and Consulting Lobby"
+                alt="Glowvya Luxury Reception and Consulting Lounge"
+                referrerPolicy="no-referrer"
                 referrerPolicy="no-referrer"
                  onError={(e) => {
                   const target = e.currentTarget;

@@ -79,7 +79,7 @@ export default function BlogCard({ post }: BlogCardProps) {
             {/* Top Close bar */}
             <div className="flex items-center justify-between border-b border-stone-200 pb-4 mb-6">
               <span className="font-mono text-xs uppercase tracking-widest text-[#9C826A]">
-                Cosmetic Product Journal
+                Glowvya Journal
               </span>
               <button
                 id={`close-reading-btn-${post.id}`}

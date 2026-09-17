@@ -8,9 +8,8 @@ export default function SitemapView() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-12 space-y-12 animate-fade-in">
       <Helmet>
-        <title>HTML Sitemap - Cosmetic Product</title>
-        <meta name="description" content="Sitemap directory of Cosmetic Product. Easily discover our organic beauty skincare lines, makeup, and latest blog tips." />
-      </Helmet>
+        <title>HTML Sitemap - Glowvya</title>
+        <meta name="description" content="Sitemap directory of Glowvya. Easily discover our organic beauty skincare lines, makeup, and latest blog tips." />
 
       {/* Hero Header */}
       <section className="text-center max-w-2xl mx-auto space-y-3">

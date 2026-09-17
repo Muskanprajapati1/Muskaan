@@ -201,8 +201,7 @@ Our **Matte Perfection Foundation** offers a lightweight, buildable mesh that se
 *   **Gentle on Sensitive Barriers:** Traditional synthetic cosmetics often contain sulfates, silicones, and heavy parabens. Natural ingredients decrease the chemical burden on delicate skin cells, vastly minimizing the risk of redness, rash breakout, or contact allergies.
 *   **Rich in Synergy:** A single raw extract like Rose Petal contains complex networks of antioxidants, Vitamin C, and antibacterial oils that work in harmony. Synthetics often isolate single compounds, missing out on this natural synergy.
 
-At Cosmetic Product, we promise that our formulas remain cruelty-free, skin-friendly, and eco-sustainable. We believe looking gorgeous should never demand compromising the beauty of our organic planet.`
-  },
+At Glowvya, we promise that our formulas remain cruelty-free, skin-friendly, and eco-sustainable. We believe looking gorgeous should never demand compromising the beauty of our organic planet.`
   {
     id: "morning-skincare-routine",
     title: "Daily Morning Skincare Routine",

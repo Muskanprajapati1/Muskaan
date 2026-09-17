@@ -35,10 +35,10 @@ export default function Header({
             <Sparkles className="h-5 w-5 transition-transform group-hover:rotate-12" />
           </div>
           <div>
-            <h1 className="font-serif text-xl font-bold tracking-wide text-stone-900 group-hover:text-amber-800 transition-colors">
-              Cosmetic Product
+             <h1 className="font-serif text-2xl font-bold tracking-wide text-stone-900 group-hover:text-amber-800 transition-colors">
+              Glowvya
             </h1>
-            <p className="font-sans text-[10px] tracking-widest text-[#9C826A] uppercase">
+            <p className="font-sans text-[10px] tracking-widest text-[#9C826A] uppercase font-semibold">
               Pure Natural Beauty
             </p>
           </div>

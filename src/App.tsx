@@ -162,7 +162,7 @@ export default function App() {
                 <Sparkles className="h-4 w-4" />
               </div>
               <span className="font-serif text-lg font-bold text-white tracking-wide">
-                Cosmetic Product
+                Glowvya
               </span>
             </div>
             <p className="font-sans text-xs leading-relaxed text-stone-500">
@@ -248,7 +248,7 @@ export default function App() {
 
         {/* Footnote Copyright & developer parameters */}
         <div className="mx-auto max-w-7xl pt-8 flex flex-col md:flex-row items-center justify-between text-left text-xs text-stone-600 gap-4">
-          <p>© 2026 Cosmetic Product Inc. All Rights Reserved.</p>
+          <p>© 2026 Glowvya Inc. All Rights Reserved.</p>
           <div className="flex items-center space-x-1.5 grayscale opacity-70">
             <span>Formulated with</span>
             <Heart className="h-3.5 w-3.5 text-red-600 fill-red-600 animate-pulse" />

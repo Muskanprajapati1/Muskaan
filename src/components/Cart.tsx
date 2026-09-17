@@ -82,8 +82,7 @@ export default function Cart({
             </div>
             <h2 className="font-serif text-2xl font-bold text-stone-900 mb-2">Order Confirmed!</h2>
             <p className="font-sans text-xs text-stone-600 mb-6 leading-relaxed max-w-xs">
-              Thank you for shopping with **Cosmetic Product**, {customerName}! We have sent a confirmation and tracking receipt details to <strong className="text-stone-800">{customerEmail}</strong>.
-            </p>
+              Thank you for shopping with **Glowvya**, {customerName}! We have sent a confirmation and tracking receipt details to <strong className="text-stone-800">{customerEmail}</strong>.
 
             {/* Receipt Summary Card */}
             <div className="w-full bg-[#FAF9F6] border border-stone-200 rounded-xl p-4 mb-8 text-left">

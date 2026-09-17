@@ -11,8 +11,8 @@ export default function BlogView() {
   const schemaMarkup = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "Cosmetic Product Journal",
-    "description": "Discover the latest beauty tips, skincare advice, and natural organic formulations in our beauty journal.",
+    "name": "Glowvya Journal",
+    "description": "Discover the latest beauty tips, skincare advice, and natural organic formulations in the Glowvya beauty journal.",
     "url": "https://cosmeticproductmuskan.netlify.app/blog",
     "blogPost": BLOG_POSTS.map(post => ({
       "@type": "BlogPosting",
@@ -29,7 +29,7 @@ export default function BlogView() {
   return (
     <div className="mx-auto max-w-7xl px-6 py-12 space-y-12 animate-fade-in">
       <Helmet>
-        <title>Blog - Cosmetic Product</title>
+       <title>Blog - Glowvya</title>
         <meta name="description" content="Discover the latest beauty tips, skincare advice, and natural organic formulations in our beauty journal." />
         <script type="application/ld+json">
           {JSON.stringify(schemaMarkup)}
@@ -40,7 +40,7 @@ export default function BlogView() {
       <section className="text-center max-w-2xl mx-auto space-y-3">
         <div className="inline-flex h-9 items-center justify-center rounded-full bg-amber-50 border border-amber-200/50 px-3.5 text-[10.5px] font-bold text-amber-900 uppercase tracking-widest">
           <BookOpen className="mr-1.5 h-3.5 w-3.5 text-amber-700" />
-          <span>Cosmetic Product Journal</span>
+          <span>Glowvya Journal</span>
         </div>
         <h1 className="font-serif text-3xl md:text-5xl font-bold tracking-tight text-stone-900">
           Latest Beauty Tips & Articles
