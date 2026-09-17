@@ -80,7 +80,7 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
   const schemaMarkup = {
     "@context": "https://schema.org",
     "@type": "Store",
-    "name":"Glowvya",
+    "name": "Glowvya",
     "url": "https://cosmeticproductmuskan.netlify.app/",
     "logo": "https://cosmeticproductmuskan.netlify.app/images/brand_hero_banner.jpg",
     "description": "Shop premium Glowvya cosmetic products including skincare, makeup, beauty essentials, and personal care items. Quality products at affordable prices.",
@@ -99,7 +99,7 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
   return (
     <div className="space-y-16 pb-16 animate-fade-in">
       <Helmet>
-       <title>Glowvya | Beauty & Skincare Collection</title>
+        <title>Glowvya | Beauty & Premium Skincare Collection</title>
         <meta name="description" content="Shop premium Glowvya cosmetic products including skincare, makeup, beauty essentials, and personal care items. Quality products at affordable prices." />
         <script type="application/ld+json">
           {JSON.stringify(schemaMarkup)}
@@ -124,7 +124,7 @@ export default function HomeView({ onAddToBag }: HomeViewProps) {
             </h1>
 
             <p className="font-sans text-stone-600 leading-relaxed text-sm md:text-base max-w-lg">
-             At <strong className="text-stone-900 font-semibold">Glowvya</strong>, we believe that beauty begins with healthy skin. Our carefully crafted cosmetic products are made with high-quality ingredients to provide nourishment, hydration, and confidence. Whether you are looking for skincare essentials or makeup products, we have everything you need to achieve a radiant glow.
+              At <strong className="text-stone-900 font-semibold">Glowvya</strong>, we believe that beauty begins with healthy skin. Our carefully crafted cosmetic products are made with high-quality ingredients to provide nourishment, hydration, and confidence. Whether you are looking for skincare essentials or makeup products, we have everything you need to achieve a radiant glow.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 pt-2">
