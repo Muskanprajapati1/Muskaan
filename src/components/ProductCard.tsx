@@ -41,7 +41,8 @@ export default function ProductCard({ product, onAddToBag }: ProductCardProps) {
             referrerPolicy="no-referrer"
              onError={(e) => {
               const target = e.currentTarget;
-              if (product.fallbackImage && target.src !== product.fallbackImage) {
+              if (!target.dataset.triedFallback && product.fallbackImage) {
+                target.dataset.triedFallback = "true";
                 target.src = product.fallbackImage;
               }
             }}
