@@ -154,7 +154,6 @@ export default function ContactView() {
                 src="/images/about/studio-lounge.jpg"
                 alt="Glowvya Luxury Reception and Consulting Lounge"
                 referrerPolicy="no-referrer"
-                referrerPolicy="no-referrer"
                  onError={(e) => {
                   const target = e.currentTarget;
                   const fallback = "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80";
